@@ -1,12 +1,56 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "cdcd20fc39eabd988b9a1986ae79a197",
-    "content-hash": "5f0b9fe5e359c5a0646ed486e6744b8b",
-    "packages": [],
+    "content-hash": "fe589ed19009aeee96ed8bb22cf0d55a",
+    "packages": [
+        {
+            "name": "kartenmacherei/kam-newrelic",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartenmacherei/kam-newrelic.git",
+                "reference": "8f1f2c47c14725b62aa542a1f74ac1ee19edb909"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartenmacherei/kam-newrelic/zipball/8f1f2c47c14725b62aa542a1f74ac1ee19edb909",
+                "reference": "8f1f2c47c14725b62aa542a1f74ac1ee19edb909",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kartenmacherei\\NewRelic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mihailo Gajic",
+                    "email": "mihailo.gajic@kartenmacherei.de"
+                }
+            ],
+            "description": "Wrapper around functions for setting newrelic appname ant transaction name",
+            "homepage": "https://github.com/kartenmacherei/kam-newrelic",
+            "keywords": [
+                "newrelic",
+                "transaction"
+            ],
+            "time": "2018-07-26T10:56:49+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
